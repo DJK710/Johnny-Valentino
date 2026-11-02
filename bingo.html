@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnny Valentino</title>
+    <meta name="description" content="Johnny Valentino, de meest interactieve act van Nederland!">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	
+	<link rel="icon" href="favicon.png" type="image/x-icon"> <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo" style="display: flex; align-items: center;">
+                <a href="index.html#home"><img src="img/logo.jpg" alt="Johnny Logo"></a>
+                <button class="menu-toggle" id="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+            <nav id="main-nav">
+                <ul class="nav-list" id="nav-list">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#gallery">Singles & Clips</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="bingo" class="section">
+            <div class="container">
+                <div class="Side-by-Side">
+                    <div class= "johnny-bingo">
+                        <img src="img/bingo master klein.jpg" alt="Johnny Valentino Glamour Bingo" loading="lazy" width="1200" height="800">
+                    </div>
+
+                    <div class="content">
+                        <p>Een onvervalst heerlijke avond waar echt alles inzit, een lach een traan....lekker meezingen en swingen! 
+                        Johnny Valentino...Mister Las Vegas, zanger ,entertainer, acteur, ladiesmen. 
+                        En dat allemaal uit Rotterdam! 
+                        Een super leuke Bingo waar Johnny de zaal op stellten zet, evt met extra Chippendale of Bunny erbij. 
+                        Er worden diverse rondjes Bingo gespeeld en Johnny praat en zingt alles als een echte Las Vegas ster aan elkaar. 
+                        Op uw festival, kantine, bedrijfsfeest...iedereen speelt mee van Jong tot Oud, van Bordenwasser tot Direkteur. 
+                        Johnny komt samen met zijn trouwe geluidsman/Dj Arie die een koffer vol platen heeft en die lekker tussendoor het feestgehalte vasthoud. 
+                        Zij kunnen inprikken op het geluid of ze nemen zelf een setje mee. Prijzen kan Johnny ook verzorgen maar leuker dat u dat zelf doet.</p>
+				        <br>    
+
+					    <ul>
+                            <li><strong></strong>Johnny is te boeken voor 1x45 minuten, <br>als opening/tussen of finale act.</li>
+                            <li><strong></strong>Als u Johnny Valentino zoekt op Youtube, dan vind u alle muziek, met filmpjes!! <a href="https://www.youtube.com/channel/UC7I1hBAhTkFheC5YwXaA6jw">Klik hier voor de afspeellijst!!!</a></li>
+                            
+                        </ul>
+						<br>
+						                    
+                        <h2>Boek Johnny voor een dag om nooit te vergeten!</h2>
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Naam <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required oninvalid="this.setCustomValidity('Vul hier uw naam in')"
+                        oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required oninvalid="this.setCustomValidity('Vul hier uw email adress in')"
+                        oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefoon</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="event-type">Soort feest <span class="required">*</span></label>
+                        <input type="text" id="event-type" name="event-type" required oninvalid="this.setCustomValidity('Vul hier het soort feest in')"
+                        oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="form-group">
+                        <label for="event-date">Datum feest <span class="required">*</span></label>
+                        <input type="date" id="event-date" name="event-date" required oninvalid="this.setCustomValidity('Vul hier de gewenste datum in')"
+                        oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="form-group">
+                        <label for="event-location">Locatie feest <span class="required">*</span></label>
+                        <input type="text" id="event-location" name="event-location" required oninvalid="this.setCustomValidity('Vul hier de locatie in')"
+                        oninput="this.setCustomValidity('')">
+                    </div>
+                    <div class="form-group">
+                        <label for="extra-info">Extra informatie</label>
+                        <textarea id="extra-info" name="extra-info" maxlength="1000"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="background-color: #fae58a; color: black;">Verstuur</button>
+                    <p class="form-vereist" style="text-align: right;">* = Vereist</p>
+                    <div id="form-status"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <div class="whatsapp-button">
+        <a href="https://wa.me/651188674" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i> Direct contact via WhatsApp
+        </a>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="img/logo footer.png" alt="Logo">
+            </div>
+            <div class="footer-links">
+            <p>Volg ons op: </p>
+            <a href="https://www.facebook.com/johnnyvalentinofansite" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/wallypreyll" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@johnny_valentino1" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            </div>
+            <br>
+            <div class="footer-info">
+                <p>Telefoon: <a href="tel:0181 324 310">0181 324 310</a></p>
+                <p>Email: <a href="mailto:info@kwekel-evenementen.nl">info@kwekel-evenementen.nl</a></p>
+                <p>&copy; All rights reserved</p>
+                <p>Site development by Ocean Multimedia, layout by Dylan van der Kuijl.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Hidden SEO keywords -->
+    <div class="seo-keywords">
+        live, muziek, dans, zang, zanger, kerst, sinterklaas, entertainment, feest, party, optreden, nederland, oud, muziekoptreden, boot, zaal
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
